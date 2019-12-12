@@ -1,0 +1,490 @@
+@font-face{
+    font-family: 'Aileron thin';
+    src: url('../fonts/aileron/Aileron-Thin.otf') format("opentype");
+    
+}
+
+
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#footer a{
+    color: white;
+}
+
+header{
+    height:150px;
+    width:100% ;
+    background-color: #ffe000;
+ 
+}
+
+#title img{
+    
+    float:right;
+    height: 380px;
+    width:380px ;
+    position: absolute;
+    margin-top:-110px ;
+    margin-left: 50px;
+}
+
+#right_menu{
+    height:100px;
+    width:50% ;
+    background-color: ;
+    float: right;
+    margin-top:30px ;
+}
+
+#barre_noire_fine{
+    height:1px;
+    width:100% ;
+    background-color: black;
+}
+
+#back_yellow{
+    height:50px;
+    width:100% ;
+    background-color: #e4ff09;
+    
+}
+#barre_bleue{
+    height:5px;
+    width:100% ;
+    background-color: #a5eeff;
+    
+    
+}
+#barre_noire{
+    height:4px;
+    width:100% ;
+    background-color: black;
+    
+}
+#social{
+    height:75px;
+    width:100% ;
+    margin-top: -16px;
+    background-color: white;
+    
+}
+
+header #social a:hover{
+    background-color: #e4ff09;
+}
+
+header #social h3:hover{
+text-decoration-line: underline;
+}
+
+#contactez_moi a:hover{
+text-decoration-line: underline;
+}
+
+#social img{
+    height:35px;
+    width: 35px; 
+    margin-top: 15px;
+}
+
+#social ul li{
+    list-style: none;
+    margin-right: 20px;
+}
+
+
+
+
+#social ul{
+    display: flex;
+}
+
+#social h3{
+    font-family: 'Aileron thin', arial;
+    margin-right: 20px;
+}
+#parcours{
+     height:25px;
+     width:100% ;
+     background-color: white;
+}
+
+#parcours h3{
+    text-align: center;
+    font-family: 'Aileron thin';
+}
+
+#mon_parcours{
+     height:250px;
+     width:80%;
+     background-color: #212121;
+     margin: auto;
+}
+
+#mon_parcours img{
+    height:250px ;
+}
+
+#mon_parcours p{
+    color: white;
+    opacity: 0.9;
+    font-family: 'Aileron thin',arial;
+    margin-top: -205px;
+    padding-left: 250px;
+    padding-right: 30px;
+    padding-top: 25px;
+    line-height: 25px;
+    font-size: 1.15em;
+}
+#contactez_moi{
+     height:50px;
+     width:80%;
+     margin:auto;
+     background-color:white;
+     padding-top: 10px;
+
+}
+
+#contactez_moi #button{
+     height:100px;
+     width:200px ;
+     background-color: #e4ff09;
+     margin-left: auto;
+     margin-right: auto;
+    margin-bottom: -55px;
+     text-align: center;
+}
+
+#button h3{
+    font-family: 'Aileron thin', arial;
+   
+}
+
+#title_case{
+    background-color: white;
+    height: 50px;
+    margin-top: -18px;
+    color: black;
+    font-family: 'Aileron thin', arial;
+}
+
+#title_case h3:first-child{
+    margin-left: 225px;
+    margin-top: 50px;
+    margin-bottom: -50px;
+    float: left;
+    
+}
+
+#title_case h3:last-child{
+    margin-right: 225px;
+    margin-top: 50px;
+    margin-bottom: -50px;
+    float: right;
+}
+
+#projets{
+    height:750px;
+    width:80% ;
+    margin: auto;
+    background-color: white;
+    color:white;
+}
+
+#mes_projets{
+    height:500px;
+    width:380px ;
+    background-color:#212121;
+    float:left;
+    margin-left:100px;
+    margin-top:60px ;
+    
+    
+    
+}
+
+#mes_projets p{
+    font-family: 'Aileron thin', arial;
+    font-size: 1.15em;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 55px;
+    line-height: 32px;
+        opacity: 0.9;
+
+
+
+}
+
+#ma_philo{
+    height:500px;
+    width:380px ;
+    background-color:#212121;
+    float:right;
+    margin-right:100px;
+    margin-top:60px ;
+
+    
+    
+}
+
+#ma_philo p{
+    font-family: 'Aileron thin', arial;
+    font-size: 1.15em;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 55px;
+    line-height: 32px;
+    opacity: 0.9;
+
+}
+
+#case{
+width: ;
+    
+}
+
+#competences{
+    height:380px;
+    width:80% ;
+    margin: auto;
+    background-color: #ffe000;
+}
+
+#competences img{
+    height:80px;
+    width:80px ;
+    float: left;
+}
+#competences nav:first-child img:first-child{
+    width: 150px;
+}
+
+#competences nav:first-child img:last-child{
+    width: 130px;
+}
+#competences nav:last-child img:last-child{
+    height: 190px;
+}
+#competences nav:first-child{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    margin-left: 50px;
+    margin-top: 20px;
+   
+}
+
+#competences nav:last-child{
+    display: flex;
+    flex-direction: column;
+    margin-right: 350px;
+    float: right;
+    margin-top: 25px;
+
+}
+
+#competences nav img:last-child{
+    margin-top: 35px;
+}
+
+#competences nav h3{
+    font-family: 'Aileron thin', arial;
+
+}
+
+#competences nav:first-child h3{
+    float: left;
+    margin-left: 170px;
+    margin-top: -10px
+}
+
+#competences nav:last-child h3{
+    margin-left: 100px;
+    margin-top: -10px;
+    float: left;
+
+}
+#low_page{
+    height:130px;
+    width:80% ;
+    margin: auto;
+    background-color: white;
+    
+}
+#content{
+    height:100%;
+    width:100% ;
+    background-color: #414141;
+}
+
+
+
+#footer nav{
+    height:115px;
+    width:100% ;
+    background-color: black;
+    color:white;
+    background-color: black;
+    
+}
+
+#footer nav ul{
+    float: right;
+    margin-right: 50px;
+    margin-top: 25px;
+}
+
+@media screen and (max-width: 640px) {
+    body{
+           zoom:0.8 ;
+           
+        }
+    
+    #barre_menu{
+        display: none;
+    }
+    
+    header{
+        width: 100%;
+        border-bottom-color: black;
+        border-bottom: solid; 
+    }
+    
+    #title{
+        margin: auto;
+           }
+    
+    header #social{
+       flex-wrap: wrap;
+       margin-top: 130px;
+       margin-left: -80%;
+       background: none;
+        
+    }
+    #parcours{
+        margin-top: 80px;
+        width: 100%;
+    }
+    #mon_parcours{
+        width: 100%;
+        height: auto;
+        
+        
+    }
+    
+    #mon_parcours img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;    
+    }
+    
+    #mon_parcours p {
+        
+        margin-top: auto;
+        margin-bottom: 20px;
+        text-align: center;
+        margin-left: -135px;
+        width: 250px;
+    }
+    
+    #contactez-moi{
+  }
+    
+    #title_case h3:first-child{
+        border-top-color: black;
+        border-top: solid; 
+        margin-left: 160px;
+        margin-top: 40px;
+        position: absolute;
+
+    }
+    
+    #title_case h3:last-child{
+        border-top-color: black;
+        border-top: solid; 
+        margin-left: 160px;
+        margin-top: 460px;
+        position: absolute;
+        text-align: center;
+    }
+    
+    #projets{
+        width: auto;
+        margin-top: 10px;
+        height: 920px;
+    }
+    
+    #mes_projets{
+        margin-top: 30px;
+        margin-left: 36px;
+        height: auto;
+    }
+    #mes_projets p{
+        padding-top: 23px;
+        padding-bottom: 20px;
+    }
+    
+    
+    #ma_philo{
+        margin-top: 110px;
+        margin-right: 40px;
+        height: auto;
+    }
+    #ma_philo p{
+        padding-top: 23px;
+        padding-bottom: 20px;
+    }
+    
+    #competences{
+        width: auto;
+    }
+    
+    #competences nav{
+        position: absolute;
+        clear: both;
+    }
+    
+    #competences nav h3{
+        display: none;
+    }
+    
+    #competences nav img{
+        margin-top: 30px;
+        
+    }
+    
+    #competences nav:first-child{
+        margin-left: 15px;
+    }
+    
+    #block_img{
+        margin-left: 70px;
+   }
+    
+    #competences nav:last-child{
+        margin-left: 200px;
+    }
+    
+    #competences img{
+        height:80px ;
+        width:80px ;
+    }
+    
+    #footer #social ul{
+        margin-right: 65px;
+    }
+    
+    #low_page{
+        width: auto;
+        height: 40px;
+    }
+   
+}
